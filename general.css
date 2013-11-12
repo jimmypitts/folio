@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 a {
     color: #444;
 }
@@ -32,4 +36,9 @@ a:hover, a:focus {
 
 .navbar-toggle {
     border-color: #DDDDDD;
+}
+
+#tagline {
+    text-align: center;
+    color: #666;
 }
