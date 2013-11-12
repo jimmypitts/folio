@@ -1,14 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #444;
 }
 
-h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
 
 a {
     color: #444;
 }
+
+/*
+ *  Navbar stuff
+ */
 
 a:hover, a:focus {
     color: #777;
@@ -38,7 +43,38 @@ a:hover, a:focus {
     border-color: #DDDDDD;
 }
 
+/*
+ *  Tagline stuff
+ */
+
 #tagline {
     text-align: center;
     color: #666;
+}
+
+
+/*
+ *  Recent work stuff
+ */
+
+#recent-work {
+    width: 97%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.showcase {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.showcase p {
+    width: 240px;
+    margin: 15px auto;
+    font-size: 1.2em;
+
+}
+
+.showcase img {
+    border: 2px solid #BBB;
 }
